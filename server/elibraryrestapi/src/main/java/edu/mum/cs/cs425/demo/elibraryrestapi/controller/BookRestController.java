@@ -9,7 +9,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"http://127.0.0.1:5500","http://localhost:80"}, allowedHeaders = "*")
+@CrossOrigin(origins = {"http://127.0.0.1:5501","http://localhost:81"}, allowedHeaders = "*")
 @RequestMapping(value = "/elibrary/api/book", produces = {MediaType.APPLICATION_JSON_VALUE})
 public class BookRestController {
 
